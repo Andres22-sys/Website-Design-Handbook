@@ -1,0 +1,182 @@
+/*---- GLOBAL STYLING ----*/
+
+body {
+  background-color: #464646;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+header,
+h2,
+.social {
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: "Yantramanav", sans-serif;
+  letter-spacing: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+/*---- HEADER STYLING ----*/
+
+header li {
+  display: inline-flex;
+  margin: 10px 10px;
+  font-family: "Yantramanav", sans-serif;
+  font-weight: light;
+  font-size: 20px;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header a:hover {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Lobster", cursive;
+  margin: 0;
+}
+
+/*---- MAIN STYLING ----*/
+
+section {
+  margin: 50px 100px;
+}
+
+.colors ul,
+.fonts ul,
+.text-styles ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*---- COLORS STYLING ----*/
+.blue-color {
+  background-color: #1e90ff;
+  padding: 5px 60px;
+  border-radius: 5px;
+}
+
+.pink-color {
+  background-color: #d957d9;
+  padding: 5px 60px;
+  border-radius: 5px;
+}
+
+.green-color {
+  background-color: #4fe0b0;
+  padding: 5px 60px;
+  border-radius: 5px;
+}
+
+.yellow-color {
+  background-color: #ffff00;
+  padding: 5px 60px;
+  border-radius: 5px;
+}
+
+.white-color {
+  background-color: #ffffff;
+  padding: 5px 60px;
+  border-radius: 5px;
+}
+
+.black-color {
+  background-color: #000000;
+  padding: 5px 60px;
+  border-radius: 5px;
+}
+
+.colors p {
+  font-size: 20px;
+  font-family: "Yantramanav", sans-serif;
+  font-weight: light;
+  background-color: #464646;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.colors li {
+  margin: 10px 10px;
+}
+
+/*---- FONTS STYLING ----*/
+.source-code-font {
+  font-family: "Source Code Pro", monospace;
+}
+
+.nunito-font {
+  font-family: "Nunito", sans-serif;
+}
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+}
+
+.lobster-font {
+  font-family: "Lobster", cursive;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/*---- FOOTER STYLING ----*/
+
+footer i {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+footer li {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+footer ul {
+  text-align: center;
+}
+
+
+/*---- MEDIA QUERIES ----*/
+
+@media screen and (max-width: 768px) {
+  section {
+    margin: 30px 30px;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
